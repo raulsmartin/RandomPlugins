@@ -5,7 +5,7 @@ Random Spigot plugins to show my skills and also to improve them.
 
 This repo is mainly composed by APIs for Spigot plugins, which are also plugins, that will be later uploaded to [SpigotMC](https://www.spigotmc.org/).
 
-The current plugins in here:
+The current plugins in here are:
 * ParticleAPI
 
 
@@ -26,3 +26,16 @@ Moreover, you can edit the configuration name if you want.
 Lastly you should click **OK** to save the configuration.
 
 Make sure that your new configuration is selected and click the **Run button** to compile every project in this repository.
+
+## TODOs
+
+This repository is very recent, so not everything can be done in a so small time-lapse.
+
+> **NOTE:** Most of this TODOs are ideas that can be later be dismissed.
+
+TODO list:
+* HeadsAPI
+* SkinAPI
+* NPC-API
+* MapAPI
+* Coming Soon..
