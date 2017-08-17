@@ -1,5 +1,6 @@
 package me.raulsmail.heads;
 
+import me.raulsmail.heads.commands.HeadsCommand;
 import org.bukkit.plugin.java.JavaPlugin;
 
 public class Main extends JavaPlugin {
@@ -13,6 +14,7 @@ public class Main extends JavaPlugin {
     @Override
     public void onEnable() {
         instance = this;
-        //TODO: Register Commands
+        //Registering Commands
+        getCommand("headsapi").setExecutor(new HeadsCommand());
     }
 }

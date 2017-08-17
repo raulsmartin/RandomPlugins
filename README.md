@@ -7,6 +7,7 @@ This repo is mainly composed by APIs for Spigot plugins, which are also plugins,
 
 The current plugins in here are:
 * ParticleAPI
+* HeadsAPI
 
 
 ## Building
@@ -34,7 +35,6 @@ This repository is very recent, so not everything can be done in a so small time
 > **NOTE:** Most of this TODOs are ideas that can be later be dismissed.
 
 TODO list:
-* HeadsAPI
 * SkinAPI
 * NPC-API
 * MapAPI

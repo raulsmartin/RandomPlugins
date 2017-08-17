@@ -3,3 +3,8 @@ main: me.raulsmail.heads.Main
 version: ${project.version}
 author: raulsmail
 website: https://github.com/raulsmartin/RandomPlugins
+commands:
+  headsapi:
+    usage: /headsapi
+    description: Main HeadsAPI command
+    aliases: [ha, heads]
