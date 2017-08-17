@@ -1,7 +1,7 @@
 # RandomPlugins
 Random Spigot plugins to show my skills and also to improve them.
 
-##Building
+## Building
 
 > **NOTE:** This plugins were made with IntelliJ IDEA as IDE, so this part might be a bit different with others IDEs.
 
