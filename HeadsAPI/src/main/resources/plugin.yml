@@ -1,0 +1,5 @@
+name: HeadsAPI
+main: me.raulsmail.heads.Main
+version: ${project.version}
+author: raulsmail
+website: https://github.com/raulsmartin/RandomPlugins

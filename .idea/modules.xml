@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/HeadsAPI/HeadsAPI.iml" filepath="$PROJECT_DIR$/HeadsAPI/HeadsAPI.iml" />
       <module fileurl="file://$PROJECT_DIR$/ParticleAPI/ParticleAPI.iml" filepath="$PROJECT_DIR$/ParticleAPI/ParticleAPI.iml" />
       <module fileurl="file://$PROJECT_DIR$/RandomPlugins.iml" filepath="$PROJECT_DIR$/RandomPlugins.iml" />
     </modules>

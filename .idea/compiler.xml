@@ -6,10 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="HeadsAPI" />
         <module name="ParticleAPI" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="HeadsAPI" target="1.8" />
       <module name="ParticleAPI" target="1.8" />
       <module name="RandomPlugins" target="1.5" />
     </bytecodeTargetLevel>

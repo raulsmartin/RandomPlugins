@@ -33,6 +33,7 @@
 
     <modules>
         <module>ParticleAPI</module>
+        <module>HeadsAPI</module>
     </modules>
 
     <properties>
