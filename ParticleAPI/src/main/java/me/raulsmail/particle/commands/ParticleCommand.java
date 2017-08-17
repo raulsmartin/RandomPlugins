@@ -20,11 +20,12 @@ public class ParticleCommand implements CommandExecutor {
             Player player = (Player) sender;
             if (player.hasPermission("me.raulsmail.particleapi.command")) {
                 player.sendMessage(ChatColor.GREEN + "Hurray!");
-                ParticleAPI.spawnParticle(Particle.EXPLOSION_HUGE, player.getLocation());
                 int taskId = new BukkitRunnable() {
                     @Override
                     public void run() {
-                        ParticleAPI.spawnColoredParticle(Particle.REDSTONE, player.getLocation(), Color.fromRGB(255, 255, 153));
+                        ParticleAPI.spawnParticle(Particle.DRIP_WATER, player.getLocation());
+                        ParticleAPI.spawnColoredParticle(Particle.SPELL_MOB_AMBIENT, player.getLocation(), Color.fromRGB(255, 255, 153));
+                        ParticleAPI.spawnMovingParticle(Particle.FIREWORKS_SPARK, player.getLocation(), player.getEyeLocation().getDirection(), 0.5);
                     }
                 }.runTaskTimer(Main.getInstance(), 0L, 1L).getTaskId();
                 new BukkitRunnable() {
