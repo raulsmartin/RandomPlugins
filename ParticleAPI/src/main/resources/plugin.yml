@@ -1,0 +1,3 @@
+name: ParticleAPI
+main: me.raulsmail.particle.Main
+version: ${project.version}
