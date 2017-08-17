@@ -10,7 +10,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="ParticleAPI" target="1.5" />
+      <module name="ParticleAPI" target="1.8" />
       <module name="RandomPlugins" target="1.5" />
     </bytecodeTargetLevel>
   </component>

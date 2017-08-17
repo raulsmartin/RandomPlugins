@@ -1,5 +1,6 @@
 package me.raulsmail.particle;
 
+import me.raulsmail.particle.commands.ParticleCommand;
 import org.bukkit.plugin.java.JavaPlugin;
 
 public class Main extends JavaPlugin {
@@ -13,7 +14,8 @@ public class Main extends JavaPlugin {
     @Override
     public void onEnable() {
         instance = this;
-        //TODO: Register Commands
-        //TODO: REgister Listeners (?)
+        //Registering Commands
+        getCommand("particleapi").setExecutor(new ParticleCommand());
+        //TODO: Register Listeners (?)
     }
 }
