@@ -1,6 +1,14 @@
 # RandomPlugins
 Random Spigot plugins to show my skills and also to improve them.
 
+## Content
+
+This repo is mainly composed by APIs for Spigot plugins, which are also plugins, that will be later uploaded to [SpigotMC](https://www.spigotmc.org/).
+
+The current plugins in here:
+* ParticleAPI
+
+
 ## Building
 
 > **NOTE:** This plugins were made with IntelliJ IDEA as IDE, so this part might be a bit different with others IDEs.
