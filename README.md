@@ -38,4 +38,5 @@ TODO list:
 * SkinAPI
 * NPC-API
 * MapAPI
-* Coming Soon..
+* Maybe making the project a Gradle Project
+* Coming Soon...
